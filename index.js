@@ -17,7 +17,7 @@ app.use('/', require('./routes/authRoutes'));
 app.use('/', require('./routes/transactionRoutes'));
 // app.use('/', require('./routes/budgetRoutes'));
 // app.use('/', require('./routes/reportRoutes'));
-// app.use('/', require('./routes/adminRoutes'));
+app.use('/', require('./routes/adminRoutes'));
 // app.use('/', require('./routes/goalRoutes'));
 
 
