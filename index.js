@@ -14,11 +14,11 @@ mongoose.connect(process.env.MONGO_URL)
 
 // Routes
 app.use('/', require('./routes/authRoutes'));
-app.use('/', require('./routes/transactionRoutes'));
-app.use('/', require('./routes/budgetRoutes'));
-app.use('/', require('./routes/reportRoutes'));
-app.use('/', require('./routes/adminRoutes'));
-app.use('/', require('./routes/goalRoutes'));
+// app.use('/', require('./routes/transactionRoutes'));
+// app.use('/', require('./routes/budgetRoutes'));
+// app.use('/', require('./routes/reportRoutes'));
+// app.use('/', require('./routes/adminRoutes'));
+// app.use('/', require('./routes/goalRoutes'));
 
 
 const PORT = process.env.PORT || 5000;
